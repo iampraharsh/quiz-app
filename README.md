@@ -16,4 +16,4 @@ Quiz Page → Attempt the stored quiz
 
 Result Page → View your final score
 
-Netlify Url: https://thriving-kelpie-a4d9ea.netlify.app/result
+Netlify Url: https://thriving-kelpie-a4d9ea.netlify.app/
