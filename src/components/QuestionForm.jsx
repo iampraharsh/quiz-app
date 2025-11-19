@@ -40,7 +40,7 @@ const QuestionForm = ({ onAdd }) => {
 	};
 
 	return (
-		<div>
+		<div style={{ marginLeft: '20px' }}>
 			<h1>Question Form</h1>
 
 			<input

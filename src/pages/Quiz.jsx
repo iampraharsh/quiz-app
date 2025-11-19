@@ -37,7 +37,7 @@ const Quiz = () => {
 	if (quiz.length === 0) return <div>No quiz available</div>;
 
 	return (
-		<div>
+		<div style={{ marginLeft: '20px' }}>
 			<h2>Quiz</h2>
 
 			<h3>

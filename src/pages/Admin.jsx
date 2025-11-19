@@ -19,16 +19,19 @@ const Admin = () => {
 
 	return (
 		<div style={{ marginLeft: '20px' }}>
-			<h1>admin Panel</h1>
+			<h1 style={{ marginLeft: '20px' }}>Admin Page</h1>
 
 			<QuestionForm onAdd={addQuestion} />
 
-			<h3>Saved Questions</h3>
+			<h3 style={{ marginLeft: '20px' }}>Saved Questions</h3>
 
 			{quiz.length === 0 && <p>No questions added yet.</p>}
 
 			{quiz.map((q, index) => (
-				<div key={index} style={{ marginBottom: '20px' }}>
+				<div
+					key={index}
+					style={{ marginBottom: '20px', marginLeft: '20px' }}
+				>
 					<strong>
 						Q{index + 1}: {q.question}
 					</strong>
